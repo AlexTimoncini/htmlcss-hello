@@ -36,7 +36,7 @@ body{
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    animation: animate 5s linear infinite;
 }
 
 .box .neon::after{
@@ -45,4 +45,15 @@ body{
     position: absolute;
     background: #222222;
     border-radius: 8px;
+}
+
+@keyframes animate{
+    0%
+    {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    100%
+    {
+        transform: translate(-50%, -50%) rotate(360deg);  
+    }
 }
