@@ -57,3 +57,13 @@ body{
         transform: translate(-50%, -50%) rotate(360deg);  
     }
 }
+
+.box .title{
+    font-size: 40px;
+    color: aqua;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
