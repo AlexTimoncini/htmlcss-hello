@@ -17,6 +17,12 @@ body{
     height: 300px;
     border-radius: 10px;
     position: relative;
+    transition: transform 1s ease;
+    cursor: pointer;
+}
+
+.box:hover{
+    transform: scale(1.2);
 }
 
 .box .neon{
